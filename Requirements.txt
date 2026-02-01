@@ -1,0 +1,23 @@
+
+
+Requerimientos Prácticas Deep Learning:
+
+- Se deberá descomprimir el archivo de data_main que contiene el dataset de imagenes
+- Los archivos poi.csv y module_utils deben de estar presentes en la carpeta del proyecto para su correcto funcionamiento.
+- El notebook contenido en este repositorio carga la carpeta del proyecto desde google drive, con lo que tendrá que ser modificado eliminando la linea de 'mount drive', 
+  asi como modificar el path de las imágenes para que coincida con el path decidido en su equipo.
+  
+  Estos paquetes deben de estar presentes en el environment para la reproduccion del notebook:import pandas as pd:
+seaborn
+torch
+torchvision
+sklearn
+matplotlib
+PIL
+numpy
+tqdm
+module
+os
+itertools
+ast
+random
